@@ -41,29 +41,36 @@ welcome.
 Features
 --------
 
-    - (TODO) Use an intersphinx inventory collection including all the
-      projects of the collation
-    - (TODO) Use documentation options commonly set across each of the
-      projects, including :
+- (TODO) Use an intersphinx inventory collection including all the
+  projects of the collation
+- (TODO) Use documentation options commonly set across each of the
+  projects, including :
 
-        * (TODO) generic module level members of ``conf.py``
-        * (TODO) custom templates
-        * (TODO) logo
-        * (TODO) custom CSS
+  - (TODO) Generic module level members of ``conf.py``
+  - (TODO) Custom templates
+  - (TODO) Collation logo
+  - (TODO) Custom CSS
+
+- (TODO) Provide collation-level dependency information, including :
+
+  - (TODO) Immediate dependencies of the documented project
+  - (TODO) Recursive dependencies of the documented project
+    upto the border of the collation
+  - (TODO) Usage of the documented project within the collation
 
 
 Limitations and Known Issues
 ----------------------------
 
-    - Does not support changing the underlying theme itself, and currently
-      assumes the use of an underlying alabaster based theme.
-    - Does not perform any kind of validation of the provided information.
-      it is left to the developer to ensure the collation configuration is
-      correct, secure, and is applied in the correct sequence in ``conf.py``
-      when applying any package specific overrides.
-    - The JSON API server is currently expected to be public, which means
-      your logo and branding can be used by anyone without any
-      authorization from you.
+- Does not support changing the underlying theme itself, and currently
+  assumes the use of an underlying alabaster based theme.
+- Does not perform any kind of validation of the provided information.
+  it is left to the developer to ensure the collation configuration is
+  correct, secure, and is applied in the correct sequence in ``conf.py``
+  when applying any package specific overrides.
+- The JSON API server is currently expected to be public, which means
+  your logo and branding can be used by anyone without any
+  authorization from you.
 
 
 Links
